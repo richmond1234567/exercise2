@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width for the form */
+}
+h2 { 
+    text-align: center;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: lighter; /* Make the label bold */
+    font-size: medium;
+}
+
+input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #5cb85c; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center; /* Center the message text */
+}
+
+.message a {
+    color: #5cb85c; /* Link color */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.message a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
